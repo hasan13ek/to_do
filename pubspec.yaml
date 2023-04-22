@@ -1,0 +1,88 @@
+name: to_do
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.3
+  flutter_bloc: ^8.1.1
+  flutter_svg: ^1.1.1+1
+  flutter_screenutil: ^5.6.0
+  fluttertoast: ^8.0.9
+  get_it: ^7.2.0
+  intl: ^0.18.0
+  grouped_list: ^5.1.2
+  cupertino_icons: ^1.0.2
+  zoom_tap_animation: ^1.1.0
+  flutter_local_notifications: ^13.0.0
+  flutter_swipe_action_cell: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/font/
+    - assets/icons/
+  fonts:
+    - family: Rubik-Black
+      fonts:
+        - asset: assets/fonts/Rubik-Black.ttf
+    - family: Rubik-BlackItalic
+      fonts:
+        - asset: assets\fonts\Rubik-BlackItalic.ttf
+    - family: Rubik-Bold
+      fonts:
+        - asset: assets\fonts\Rubik-Bold.ttf
+    - family: Rubik-BoldItalic
+      fonts:
+        - asset: assets\fonts\Rubik-BoldItalic.ttf
+    - family: Rubik-ExtraBold
+      fonts:
+        - asset: assets\fonts\Rubik-ExtraBold.ttf
+    - family: Rubik-ExtraBoldItalic
+      fonts:
+        - asset: assets\fonts\Rubik-ExtraBoldItalic.ttf
+    - family: Rubik-Italic
+      fonts:
+        - asset: assets\fonts\Rubik-Italic.ttf
+    - family: Rubik-Light
+      fonts:
+        - asset: assets\fonts\Rubik-Light.ttf
+    - family: Rubik-LightItalic
+      fonts:
+        - asset: assets\fonts\Rubik-LightItalic.ttf
+    - family: Rubik-Medium
+      fonts:
+        - asset: assets\fonts\Rubik-Medium.ttf
+    - family: Rubik-MediumItalic
+      fonts:
+        - asset: assets\fonts\Rubik-MediumItalic.ttf
+    - family: Rubik-Regular
+      fonts:
+        - asset: assets\fonts\Rubik-Regular.ttf
+    - family: Rubik-SemiBold
+      fonts:
+        - asset: assets\fonts\Rubik-SemiBold.ttf
+    - family: Rubik-SemiBoldItalic
+      fonts:
+        - asset: assets\fonts\Rubik-SemiBoldItalic.ttf
+
